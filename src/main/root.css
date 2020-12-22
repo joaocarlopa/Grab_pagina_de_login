@@ -322,7 +322,7 @@ body {align-items: center;}
         flex-direction: column;
         position: relative;
         top: 150px;
-        left: 130px;
+        left: 100px;
     }
     
     
@@ -462,7 +462,7 @@ body {align-items: center;}
 @media (min-width: 500px) and   (max-width: 606px) {
     .hr {
         position: relative;
-        left: 150px;
+        left: 170px;
     }
 }
 
