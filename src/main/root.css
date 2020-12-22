@@ -462,7 +462,7 @@ body {align-items: center;}
 @media (min-width: 500px) and   (max-width: 606px) {
     .hr {
         position: relative;
-        left: 170px;
+        left: 150px;
     }
 }
 
