@@ -25,6 +25,6 @@ Javascript
 
 ## Feedback
 
-Também pode me enviar um feedback pelo [LinkedIn](https://www.linkedin.com/in/magdielndantas)!
+Também pode me enviar um feedback pelo [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-carlos-pereira-alves-6bb391164/)!
 
 Desafio criado por [Magdiel Dantas](https://github.com/magdielndantas)
