@@ -1,0 +1,490 @@
+body {align-items: center;}
+
+@media (min-width: 768px) {
+
+    .errorMail {
+        
+        margin-left: 105px;
+        
+    }
+
+    .errorPass {
+        margin-left: -30px;
+    }
+
+    .content_left {
+        width: 800px;
+        height: 100%;
+        background-color: #4E5BEE;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    .content_right {
+        width: 100%;
+        background-image: url('./img/undraw_interview_rmcf.svg');
+        background-size: 900px;
+        position: relative;
+        left: -145px;
+        top: 15px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .hr {
+        margin-top: 150px;
+        background-image: url('./img/logo-grab.svg');
+        background-size: 150px;
+        background-repeat: no-repeat;
+        margin-left: 50px;
+        height: 130px;
+        width: 150px;
+    }
+
+    .nav {
+        margin-left: -100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email {
+        color: #F8F8F8;
+        border: 2px solid;
+        border-radius: 20px;
+        width: 200px;
+        height: 25px;
+        margin-left: 142px;
+    }
+
+    .email, label {
+        cursor: pointer;
+    }
+
+    .email:hover {
+        filter: brightness(65%);
+    }
+
+    .password {
+        color: #F8F8F8;
+        border: 2px solid;
+        border-radius: 20px;
+        width: 200px;
+        height: 25px;
+        margin-left: 142px;
+        margin-top: 5px;
+    }
+
+    #mail {
+        width: 150px;
+        margin-left: 5px;
+        position: relative;
+        top: -3px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        color: #F8F8F8;
+    }
+
+    #mail:focus {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #pass:focus {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #pass {
+        width: 150px;
+        margin-left: 5px;
+        position: relative;
+        top: -3px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        color: #F8F8F8;
+    }
+
+    
+
+    .btn {
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: -3px;
+        width: 205px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        color: #4b4b4b;
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .footer {
+        position: relative;
+        top: 120px;
+        left: 70px;
+    }
+
+    .link {
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+    }
+
+    .link:hover {
+        position: relative;
+        left: 1px;
+        filter: brightness(65%);
+    }
+
+    .btn:hover {
+        filter: brightness(65%);
+
+    }
+    
+    
+}
+
+@media (max-width: 1140px) {
+    .errorMail {
+        
+        margin-left: 7px;
+        
+    }
+
+    .errorPass {
+        margin-left: -125px;
+    }
+
+    body {
+        align-items: center;
+        background-color: #4E5BEE;
+    }
+
+    .content_right {
+        background-image: none;
+    }
+    
+    .content_left {
+        align-items: center;
+        position: fixed;
+        width: 101%;
+        height: 101%;
+     
+
+    }
+
+    
+
+    .hr {
+        align-items: center;
+        background-image: url('./img/logo-grab.svg');
+        background-size: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        height: 160px;
+        width: 160px;
+        
+    }
+    
+
+    .nav {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email {
+        color: #F8F8F8;
+        border: 2px solid;
+        border-radius: 20px;
+        width: 300px;
+        height: 35px;
+     
+    }
+
+    #mail {
+        width: 250px;
+        height: 20px;
+        margin-left: 10px;
+        position: relative;
+        top: -3px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        color: #F8F8F8;
+    }
+
+    svg {
+        margin: 5px 0px 0px 5px;
+    }
+
+    .password {
+        color: #F8F8F8;
+        border: 2px solid;
+        border-radius: 20px;
+        width: 300px;
+        height: 35px;
+       
+    }
+
+    #mail:focus {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #pass:focus {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #pass {
+        width: 250px;
+        height: 20px;
+        
+        position: relative;
+        top: -3px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        color: #F8F8F8;
+    }
+
+    
+    .btn {
+        cursor: pointer;
+        
+        width: 306px;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        color: #4b4b4b;
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .footer {
+        font-size: 20px;
+        position: relative;
+        top: 80px;
+        left: 75px;
+    
+    }
+
+    .link {
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+    }
+
+    .link:hover {
+        position: relative;
+        left: 1px;
+        filter: brightness(65%);
+    }
+
+    .btn:hover {
+        filter: brightness(65%);
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    .errorPass {
+        margin-left: 5px;
+    }
+
+    body {
+        align-items: center;
+        background-color: #4E5BEE;
+    }
+
+    .container {
+        align-items: center;
+    }
+    .content_left {
+        align-items: center;
+       
+        width: 100%;
+        height: 100%;
+     
+
+    }
+
+    .content_right {
+        background-image: none;
+    }
+
+    .hr {
+        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 150px;
+        left: 130px;
+    }
+    
+    
+    
+
+    .nav {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 150px;
+    }
+
+    .email {
+        color: #F8F8F8;
+        border: 2px solid;
+        border-radius: 20px;
+        width: 300px;
+        height: 35px;
+     
+    }
+
+    #mail {
+        width: 250px;
+        height: 20px;
+        margin-left: 10px;
+        position: relative;
+        top: -3px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        color: #F8F8F8;
+    }
+
+    svg {
+        margin: 5px 0px 0px 5px;
+    }
+
+    .password {
+        color: #F8F8F8;
+        border: 2px solid;
+        border-radius: 20px;
+        width: 300px;
+        height: 35px;
+        margin-top: 5px;
+       
+    }
+
+    #mail:focus {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #pass:focus {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #pass {
+        width: 250px;
+        height: 20px;
+        
+        position: relative;
+        top: -3px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        color: #F8F8F8;
+    }
+
+    
+    .btn {
+        cursor: pointer;
+        
+        width: 306px;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        color: #4b4b4b;
+        font-size: 15px;
+        font-weight: 550;
+        margin: 10px 0px 0px -2px;
+    }
+
+    .footer {
+        font-size: 20px;
+        position: relative;
+        top: 110px;
+        left: 0px;
+    
+    }
+
+    .link {
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+    }
+
+    .link:hover {
+        position: relative;
+        left: 1px;
+        filter: brightness(65%);
+    }
+
+    .btn:hover {
+        filter: brightness(65%);
+
+    }
+}
+
+@media (max-width: 765px) {
+    .hr {
+        position: relative;
+        left: 310px;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .hr {
+        position: relative;
+        left: 255px;
+    }
+}
+
+@media (max-width: 650px) {
+    .hr {
+        position: relative;
+        left: 225px;
+    }
+}
+
+@media (max-width: 620px) {
+    .hr {
+        position: relative;
+        left: 130px;
+    }
+}
+
+@media (min-width: 500px) and   (max-width: 606px) {
+    .hr {
+        position: relative;
+        left: 170px;
+    }
+}
+
+.errorMail {
+   
+    height: 10px;
+    position: relative;
+    top: -3px;
+    margin-top: 3px;
+    
+}
+
+.errorPass {
+ 
+    height: 10px;
+    
+    margin-top: 3px;
+    
+}
+
+.red {
+    border: 2px solid red;
+   
+}
+
