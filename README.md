@@ -4,7 +4,7 @@
   <h3 align="center">Grab - Página de login</h3>
 </p>
 <p align="center">
-  <a href="https://github.com/magdielndantas/grab-pagina-de-login">Desafio</a> | 
+  <a href="https://github.com/magdielndantas/grab-pagina-de-login">Desafio</a> 
 </p>
 
 ## DevChallenge
